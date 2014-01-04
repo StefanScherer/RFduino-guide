@@ -8,14 +8,12 @@ RFduino: Shrunk down an Arduino to the size of a finger-tip and made it Wireless
 
 This installation steps are for Windows systems with Chocolatey packages. If you don't know what Chocolatey is, head over to <http://chocolatey.org> and install it first.
 
-* Install Arduino IDE 1.5.5, Git and Fritzing
+* Install Arduino IDE 1.5.5, Git
 
 Open a Command Shell and type in following commands
 
     cinst arduinoide -Version 1.5.5-beta -Pre
     cinst git.commandline
-    cinst wget
-    cinst fritzing -Pre
 
 * Install the RFduino libraries
 
@@ -36,6 +34,8 @@ Head over to <http://www.ftdichip.com/Drivers/VCP.htm> or use the following comm
 
 If you want to document your work built with RFduino, use this part in Fritzing.
 
+    cinst fritzing -Pre
+    cinst wget
     wget http://goddess-gate.com/projects/assets/archives/arduino/rfduino.fzpz
 
 
@@ -47,15 +47,15 @@ If you want to document your work built with RFduino, use this part in Fritzing.
 
 * Start Arduino IDE
 
-* select Tools / Boards / RFduino
+* Select the RFduino in the menu: **Tools / Boards / RFduino**
 
-* Select Tools / Port / COMx 
+* Select the right COM port in the menu: **Tools / Port / COMx**
 
-* Open the example project with File / Examples / RFduinoBLE / LedButton
+* Open the example project in the menu: **File / Examples / RFduinoBLE / LedButton**
 
-* Compile and upload the sketch into your RFduino
+* Compile and upload the sketch into your RFduino by pressing the **Upload** toolbar button.
 
-* Wire up the following 
+* Wire up the following parts on a breadboard. I power the RFduino from the USB shield which is also connected to the breadboard.
 
 ![RFduino LedBtn Breadboard](https://raw.github.com/StefanScherer/RFduino-guide/master/images/RFduino_LedBtn_Steckplatine.png)
 
