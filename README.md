@@ -19,7 +19,7 @@ Open a Command Shell and type in following commands
 
 * Install the RFduino libraries
 
-Then open a command prompt with privileged rights (Run as administator) and install the RFduino library into the Arduino installation.
+Then open a command prompt with **privileged rights (Run as administator)** and install the RFduino library into the Arduino installation.
 
     cd /D %ProgramFiles%\Arduino\hardware\arduino
     set PATH=%PATH%;%SystemDrive%\git\cmd
@@ -33,6 +33,8 @@ Head over to <http://www.ftdichip.com/Drivers/VCP.htm> or use the following comm
     CDM20830_Setup.exe
 
 * Download the RFduino Fritzing Part
+
+If you want to document your work built with RFduino, use this part in Fritzing.
 
     wget http://goddess-gate.com/projects/assets/archives/arduino/rfduino.fzpz
 
@@ -55,7 +57,7 @@ Head over to <http://www.ftdichip.com/Drivers/VCP.htm> or use the following comm
 
 * Wire up the following 
 
-![RFduino LedBtn Breadboard](https://github.com/StefanScherer/RFduino-guide/images/RFduino-LedBtn-Steckplatine.png)
+![RFduino LedBtn Breadboard](https://raw.github.com/StefanScherer/RFduino-guide/master/images/RFduino_LedBtn_Steckplatine.png)
 
 * Start the RFduino LedBtn app on your iPad, connect to your RFduino and press the button on the breadboard and in the iPad app.
 
